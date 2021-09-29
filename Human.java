@@ -1,6 +1,7 @@
-package Factory;
+package Person;
 
 public interface Human {
-    void getColor();
-    void talk();
+    public void getColor();
+    public void talk();
+    public void getSex();
 }
